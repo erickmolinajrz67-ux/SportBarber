@@ -1,0 +1,16 @@
+:root{ --blue:#1e3a8a; --orange:#f97316; --white:#fff; }
+body{ font-family:Inter, Arial, sans-serif; margin:0; background:linear-gradient(180deg,#f8fafc, #e6eefc); color:#0f172a; }
+.header{ background:var(--blue); color:var(--white); padding:18px; text-align:center; border-bottom:6px solid var(--orange); }
+.page{ max-width:900px; margin:20px auto; padding:20px; }
+.card{ background:#fff; padding:18px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+.card h2{ margin-top:0 }
+.card label{ display:block; margin-top:8px }
+.card input, .card select, .card textarea{ width:100%; padding:10px; margin-top:6px; border-radius:8px; border:1px solid #cbd5e1 }
+.card button{ margin-top:12px; background:var(--blue); color:var(--white); padding:12px; border-radius:10px; border:none }
+.msg{ margin-top:10px; padding:8px; background:#def7ec; border-radius:8px }
+.calendar .grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:10px }
+.slot{ padding:10px; border-radius:8px; text-align:center }
+.slot.libre{ background:#bbf7d0 }
+.slot.ocupado{ background:#fecaca }
+.admin-card{ background:#fff; padding:12px; border-radius:10px }
+.admin-card .item{ padding:8px; border-bottom:1px solid #eee }
